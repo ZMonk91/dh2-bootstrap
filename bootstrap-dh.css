@@ -1,0 +1,12 @@
+body {
+    background: #1C1E2A;
+}
+
+.nav-stats {
+    margin-left: 4rem;
+}
+
+table.top-bar {
+    background: none;
+    border: none;
+}
