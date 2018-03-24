@@ -10,8 +10,10 @@
     }
     
     table.top-bar {
-        background: none;
+        background: #4e5d6c;
+        width: 101.5%;
         border: none;
+        margin: -1rem 0rem 2rem -1rem;
     }
     
     table.tab-bar {
@@ -30,10 +32,15 @@
     }
     
     .menu-buttons {
-        background: #8d9dad !important;
-        border: 1px solid #39444e !important;
+        background: #4E5D6C !important;
+        border: 1px solid #4E5D6C !important;
         margin-top: 3px !important;
         border-radius: 0 0.5rem .5rem 0rem !important;
+    }
+    
+    .menu-buttons:hover {
+        background: #425262 !important;
+        border: 1px solid #425262 !important;
     }
     
     .menu-buttons img {
@@ -73,6 +80,12 @@
         color: white;
         cursor: pointer;
         margin: 0.5rem .5rem !important;
+        background: none !important;
+    }
+    
+    span.notif-box {
+        background-color: #5cb85c !important;
+        border: none !important;
     }
     
     .item-box-color {
@@ -90,4 +103,26 @@
     
     #div-chat>div:nth-child(1)>text {
         display: none !important;
+    }
+    
+     ::-webkit-scrollbar {
+        width: .2em;
+    }
+    
+     ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: .1em;
+    }
+    
+     ::-webkit-scrollbar-thumb {
+        background: black;
+        border-radius: 10px;
+    }
+    
+     ::-webkit-scrollbar-thumb:hover {
+        background: #b30000;
+    }
+    
+    .notifaction-area {
+        text-align: center;
     }
