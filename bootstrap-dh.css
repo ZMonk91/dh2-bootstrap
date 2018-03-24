@@ -55,7 +55,7 @@
         border: none !important;
         background-image: none !important;
         max-height: 40rem !important;
-        overflow: overlay !important;
+        overflow-y: scroll !important;
     }
     
     .tab-container {
@@ -108,6 +108,7 @@
     
      ::-webkit-scrollbar {
         width: .2em;
+        height: .2em;
     }
     
      ::-webkit-scrollbar-track {
