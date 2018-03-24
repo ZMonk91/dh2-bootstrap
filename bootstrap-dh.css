@@ -84,6 +84,7 @@
     }
     
     span.notif-box {
+        background: none;
         background-color: #5cb85c !important;
         border: none !important;
     }
@@ -123,6 +124,24 @@
         background: #b30000;
     }
     
-    .notifaction-area {
-        text-align: center;
+    #notifaction-area {
+        text-align: center !important;
+    }
+    
+    #div-chat {
+        color: black;
+    }
+    
+    #div-chat>div:nth-child(1) {
+        position: absolute;
+        right: 2rem;
+    }
+    
+    div.div-chat-area {
+        border: none !important;
+        background-color: #4e5d6c !important;
+        height: 200px;
+        padding-left: 5px;
+        color: white !important;
+        overflow-y: auto;
     }
