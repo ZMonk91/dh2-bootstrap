@@ -1,12 +1,32 @@
-body {
-    background: #1C1E2A;
-}
-
-.nav-stats {
-    margin-left: 4rem;
-}
-
-table.top-bar {
-    background: none;
-    border: none;
-}
+    body,
+    #game-body {
+        background-image: none !important;
+        /* url("https://www.toptal.com/designers/subtlepatterns/patterns/dark-triangles.png"); 
+    background-repeat: repeat; */
+    }
+    
+    .nav-stats {
+        padding-left: 4rem;
+    }
+    
+    table.top-bar {
+        background: none;
+        border: none;
+    }
+    
+    table.tab-bar {
+        display: inline-table;
+    }
+    
+    .btn-group,
+    .btn-group-vertical {
+        position: relative;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        vertical-align: top !important;
+    }
+    
+    .tab-container {
+        display: inline-block;
+    }
