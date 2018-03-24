@@ -16,6 +16,8 @@
     
     table.tab-bar {
         display: inline-table;
+        background: none;
+        margin-left: -1rem;
     }
     
     .btn-group,
@@ -28,7 +30,18 @@
     }
     
     .menu-buttons {
-        background: none;
+        background: #8d9dad !important;
+        border: 1px solid #39444e !important;
+        margin-top: 3px !important;
+        border-radius: 0 0.5rem .5rem 0rem !important;
+    }
+    
+    .menu-buttons img {
+        float: left;
+    }
+    
+    .menu-buttons span {
+        font-size: xx-large;
     }
     
     .tab-container {
