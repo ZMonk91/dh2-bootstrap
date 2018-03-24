@@ -27,6 +27,10 @@
         vertical-align: top !important;
     }
     
+    .menu-buttons {
+        background: none;
+    }
+    
     .tab-container {
         display: inline-block;
     }
